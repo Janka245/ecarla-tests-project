@@ -14,19 +14,27 @@ Automatyczne testy UI dla sklepu internetowego eCarla.pl wykorzystujące Seleniu
 
 ```bash
 git clone https://github.com/Janka245/ecarla-tests-project
+```
+
+2. **Wejdź do folderu projektu:**
+
+```bash
 cd ecarla_tests_project
 ```
 
-2. **Utwórz i aktywuj środowisko wirtualne:**
+3. **Utwórz i aktywuj środowisko wirtualne:**
 
 ```bash
 python -m venv venv
+# lub
+python3 -m venv venv
+
 source venv/bin/activate  # macOS/Linux
 # lub
 venv\Scripts\activate     # Windows
 ```
 
-3. **Zainstaluj zależności:**
+4. **Zainstaluj zależności:**
 
 ```bash
 pip install -r requirements.txt
